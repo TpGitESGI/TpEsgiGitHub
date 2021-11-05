@@ -216,7 +216,7 @@ address { font-style: normal; }
 .tm-bgcolor-1 { background-color: #faf61b; }
 .tm-bgcolor-2 { background-color: #e82020; }
 
-.tm-bgcolor-3 { background-color: #99CCCC; }
+.tm-bgcolor-3 { background-color: black; }
 .tm-border-rounded { border-radius: 15px; }
 
 .floating { 
