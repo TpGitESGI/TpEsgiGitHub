@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nano Folio - Simple HTML Template</title>
+	<title>TP/GITHUB</title>
 	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
 	<link href="css/magnific-popup.min.css" rel="stylesheet">
     <link href="css/tooplate-style.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 <!--
 
 Tooplate 2122 Nano Folio
@@ -16,11 +17,48 @@ https://www.tooplate.com/view/2122-nano-folio
 
 -->
 </head>
+<nav style="margin-left: 50px;" class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="#">GSWarriors</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Boutique</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Panier</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Sponsors</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			</li>
+			</li>
+		</ul>
+	</div>
+</nav>
 <body>
+
+	<div style="margin-top: 40px;" class="container"> 
+		<div class="row text-center">
+			<div class="col">
+				<button type="button" class="btn btn-danger">Voir nos prochains match</button> 	
+			</div>	
+			<div class="col">
+				<button type="button" class="btn btn-warning">Voir nos résultats</button> 	
+			</div>
+		</div>
+	</div>
+
 	<div class="tm-container-fluid">
 		<section class="tm-site-header tm-flex-center tm-mb-50 tm-bgcolor-1 tm-border-rounded">
-			<i class="fas fa-heart fa-3x"></i>
-			<h1>Nano Folio</h1>
+			<img src="./img/golden-state-warriors-kepsar.png">
 		</section>
 
 		<section class="tm-about tm-mb-80 tm-p-50 tm-bgcolor-2 tm-border-rounded">
@@ -35,77 +73,36 @@ https://www.tooplate.com/view/2122-nano-folio
 		</section>
 
 		<div class="tm-gallery-section tm-mb-80">
-			<ul class="filters-button-group tm-mb-40">
-				<li><a href="#" data-filter=".city">City</a></li>
-				<li><a href="#" data-filter=".nature">Nature</a></li>
-				<li><a href="#" data-filter=".portraits">Portraits</a></li>
-				<li><a href="#" class="active" data-filter="*">Show All</a></li>
-			</ul>
 			<div class="tm-gallery">				
-				<div class="tm-gallery-item city portraits">
+				<div class="tm-gallery-item city nature">
 		            <a href="img/img-01.jpg">
-		            	<img src="img/tn-img-01.jpg" alt="City Scape" class="img-fluid" />
+		            	<img src="img/img-01.jpg" alt="City Scape" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item portraits">
+				<div class="tm-gallery-item nature">
 		            <a href="img/img-02.jpg">
-		            	<img src="img/tn-img-02.jpg" alt="Beautiful Lady" class="img-fluid" />
+		            	<img src="img/img-02.jpg" alt="Beautiful Lady" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item city">
+				<div class="tm-gallery-item nature">
 		            <a href="img/img-03.jpg">
-		            	<img src="img/tn-img-03.jpg" alt="City over cloud" class="img-fluid" />
+		            	<img src="img/img-03.jpg" alt="City over cloud" class="img-fluid" />
 		            </a>
 		        </div>
 		        <div class="tm-gallery-item nature">
 		            <a href="img/img-04.jpg">
-		            	<img src="img/tn-img-04.jpg" alt="Autumn Forest" class="img-fluid" />
+		            	<img src="img/img-04.jpg" alt="Autumn Forest" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-05.jpg">
-		            	<img src="img/tn-img-05.jpg" alt="Skyscrapers Reflected" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-06.jpg">
-		            	<img src="img/tn-img-06.jpg" alt="City Night" class="img-fluid" />
-		            </a>
-		        </div>
-		        <div class="tm-gallery-item nature portraits">
-		            <a href="img/img-07.jpg">
-		            	<img src="img/tn-img-07.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-08.jpg">
-		            	<img src="img/tn-img-08.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-09.jpg">
-		            	<img src="img/tn-img-09.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-		        <div class="tm-gallery-item nature portraits">
-		            <a href="img/img-10.jpg">
-		            	<img src="img/tn-img-10.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-11.jpg">
-		            	<img src="img/tn-img-11.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item portraits">
-		            <a href="img/img-12.jpg">
-		            	<img src="img/tn-img-12.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
+
 			</div>			
 		</div>
 
-		<section class="tm-contact tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+		<div class="text-center">
+			<img src="img/floating.png" class="floating">
+		</div>
+
+		<section class="tm-contact tm-mb-50 tm-bgcolor-3 tm-border-rounded" style="margin-top: 50px;">
 			<div class="tm-contact-header tm-flex-center">
 				<i class="fas fa-map-pin fa-3x"></i>
 				<h2>Contact</h2>
@@ -134,7 +131,7 @@ https://www.tooplate.com/view/2122-nano-folio
 		</section>
 
 		<footer class="tm-footer">
-			Copyright 2020 Nano Folio - Design: <a rel="sponsored" href="https://www.tooplate.com" class="tm-link-gray">Tooplate</a>
+			Copyright 2020 GS WARRIOR - Design: <a rel="sponsored" href="https://www.tooplate.com" class="tm-link-gray">Equipe ESGI</a>
 		</footer>
 	</div>
 
