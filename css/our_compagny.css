@@ -1,0 +1,21 @@
+.title-team{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+
+.pram {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}

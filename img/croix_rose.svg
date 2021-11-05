@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.914" height="76.64"
+     viewBox="0 0 73.914 76.64">
+    <defs>
+        <clipPath id="clip-path">
+            <rect width="73.914" height="76.64" fill="none"/>
+        </clipPath>
+    </defs>
+    <g id="Grille_de_répétition_10" data-name="Grille de répétition 10" clip-path="url(#clip-path)">
+        <g transform="translate(-356.02 -3007.025)">
+            <path id="Tracé_358" data-name="Tracé 358"
+                  d="M438.733,336.125,462.978,321.5a7.1,7.1,0,0,0,2.446-9.684,6.886,6.886,0,0,0-9.536-2.479l-23.706,14.281-12.991-24.728A6.9,6.9,0,0,0,409.767,296a7.112,7.112,0,0,0-2.855,9.566l13.243,25.278-24.232,14.591a7.124,7.124,0,0,0-2.443,9.707,6.878,6.878,0,0,0,9.54,2.468l23.712-14.271,12.992,24.7a6.886,6.886,0,0,0,9.4,2.923,7.118,7.118,0,0,0,2.85-9.58Z"
+                  transform="translate(-36.477 2711.868)" fill="#F03B77"/>
+        </g>
+    </g>
+</svg>

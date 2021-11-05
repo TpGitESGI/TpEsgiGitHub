@@ -45,7 +45,7 @@ h1, h2, p, i, address, .tm-text-white { color: white; }
     padding: 60px 15px;
 }
 
-.tm-site-header { height: 470px; }
+.tm-site-header { height: 200px; }
 
 .tm-flex-center {
     display: flex;
@@ -209,9 +209,11 @@ address { font-style: normal; }
 .tm-mb-0 { margin-bottom: 0; }
 .tm-mb-30 { margin-bottom: 30px }
 .tm-mb-40 { margin-bottom: 40px; }
-.tm-mb-50 { margin-bottom: 50px; }
+.tm-mb-50 { margin-bottom: 100px; }
 .tm-mb-80 { margin-bottom: 80px; }
 .tm-bgcolor-1 { background-color: #F96699; }
 .tm-bgcolor-2 { background-color: #38CCCC; }
-.tm-bgcolor-3 { background-color: #99CCCC; }
-.tm-border-rounded { border-radius: 15px; }
+.tm-bgcolor-3 { background-color: #69140E; }
+.tm-bgcolor-4 { background-color: orangered; }
+.tm-bgcolor-5 { background-color: grey; }
+.tm-border-rounded { border-radius: 10px; }
