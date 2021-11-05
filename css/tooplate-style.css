@@ -152,7 +152,7 @@ address { font-style: normal; }
     margin-left: 40px;
 }
 
-.filters-button-group li a.active { color: #F96699; }
+.filters-button-group li a.active { color: darkred; }
 .tm-gallery { margin: -10px; }
 
 .tm-gallery-item {
@@ -211,7 +211,10 @@ address { font-style: normal; }
 .tm-mb-40 { margin-bottom: 40px; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-80 { margin-bottom: 80px; }
+
+
 .tm-bgcolor-1 { background-color: #faf61b; }
 .tm-bgcolor-2 { background-color: #e82020; }
+
 .tm-bgcolor-3 { background-color: #99CCCC; }
 .tm-border-rounded { border-radius: 15px; }
