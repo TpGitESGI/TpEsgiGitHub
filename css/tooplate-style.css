@@ -130,13 +130,13 @@ textarea {
 }
 
 .tm-social-link i {
-    color: #99CCCC;
+    color: #e05555;
     transition: all 0.3s ease;
 }
 
-.tm-social-link:hover i.fa-facebook { color: #3b5998; }
-.tm-social-link:hover i.fa-twitter { color: #00acee; }
-.tm-social-link:hover i.fa-instagram { color: #3f729b; }
+.tm-social-link:hover i.fa-facebook { color: #e05555; }
+.tm-social-link:hover i.fa-twitter { color: #e05555; }
+.tm-social-link:hover i.fa-instagram { color: #e05555; }
 .tm-flex { display: flex; }
 address { font-style: normal; }
 
@@ -213,5 +213,5 @@ address { font-style: normal; }
 .tm-mb-80 { margin-bottom: 80px; }
 .tm-bgcolor-1 { background-color: #faf61b; }
 .tm-bgcolor-2 { background-color: #e82020; }
-.tm-bgcolor-3 { background-color: #99CCCC; }
+.tm-bgcolor-3 { background-color: #e05555; }
 .tm-border-rounded { border-radius: 15px; }
