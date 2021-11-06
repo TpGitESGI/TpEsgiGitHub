@@ -10,7 +10,6 @@ body {
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
-    line-height: 2em;
     overflow-x: hidden;
 }
 
@@ -24,10 +23,12 @@ a:hover { color: #30ADAD; }
 
 .tm-about-text a { color: #9F6; }
 
-h1, h2,h3, p, i, address, .tm-text-white { color: white; }
+
+h1, h2, h3, p, i, address, .tm-text-white { color: white !important; }
+
 
 .tm-link-gray { color: #999999; }
-.tm-link-white { color: white; }
+.tm-link-white { color: white !; }
 
 .tm-footer { 
     color: #999999; 
@@ -211,5 +212,6 @@ address { font-style: normal; }
 .tm-bgcolor-1 { background-color: #4ed8dd; }
 .tm-bgcolor-2 { background-color: #38CCCC; }
 .tm-bgcolor-3 { background-color: #44c078; }
+.tm-bgcolor-4 { background-color: #ac7fe7; }
 .tm-bgcolor-5 { background-color: #ff7e4b; }
 .tm-border-rounded { border-radius: 15px; }

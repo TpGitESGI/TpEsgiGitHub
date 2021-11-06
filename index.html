@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nano Folio - Simple HTML Template</title>
+	<title>DeliFood</title>
 	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="css/magnific-popup.min.css" rel="stylesheet">
     <link href="css/tooplate-style.css" rel="stylesheet">
-<!--
-Tooplate 2122 Nano Folio
-https://www.tooplate.com/view/2122-nano-folio
--->
+	<link href="css/nav-barre.css" rel="stylesheet">
+	<link href="css/footer.css" rel="stylesheet">
+	<!-- CSS only -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
 </head>
 <body>
+	<div style="display:block;" class="nav-bar tm-flex">
+		<span><h1>DeliFood</h1></span>
+		  <ul>
+			<li><a href="index.html">Accueil</a></li>
+		  </ul>
+	</div>
 	<div class="tm-container-fluid">
+		
+		  
 		<section class="tm-site-header tm-flex-center tm-mb-50 tm-bgcolor-1 tm-border-rounded">
 			<i class="fas fa-bookmark fa-3x"></i>
 			<h1>DeliFood</h1>
@@ -30,73 +43,75 @@ https://www.tooplate.com/view/2122-nano-folio
 				<p class="tm-mb-40">Nous savons tous que pour vivre et fonctionner au quotidien, vous devez nourrir votre corps afin qu’il soit plein d'énergie pour afftonter la vie de tous les jours. C'est pour cela que nous avons créés DeliFood, avec de nombreux produits frais et 100% français. Vous pourrez enfin savourer de délicieux plats tout en restant en bonne santé</p>
 			</div>
 		</section>
+		<section class="tm-about tm-mb-80 tm-p-50 tm-bgcolor-4 tm-border-rounded">
+			<div class="tm-about-header tm-flex-center">
+				<i class="fas fa-money-bill-wave-alt fa-2x"></i>
+				<h2>Nos Prix</h2>
+			</div>
+			<div class="tm-about-text">
+				<p class="tm-mb-20"><strong>Entrée :</strong><br>Salade niçoise 6€<br>Salade César 7€<br>Saucisson brioché 9€<br><br><strong>Plat :</strong><br>Pizza 13€<br>Hamburger 10€<br>Cottes de boeuf 15€<br>Cassoulet 14€</p>
+			</div>
+			<div class="tm-about-text">
+				<p class="tm-mb-20"><strong>Boisson :</strong><br>Coca Cola  2€<br>Orangina 2€<br>Bière 3€<br><br><strong>Dessert :</strong><br>Glace 6€<br>Fondant au chocolat 7€<br>Crêpe 5€</p>
+			</div>
+		</section>
 
 		<div class="tm-gallery-section tm-mb-80">
 			<ul class="filters-button-group tm-mb-40">
-				<li><a href="#" data-filter=".city">City</a></li>
-				<li><a href="#" data-filter=".nature">Nature</a></li>
-				<li><a href="#" data-filter=".portraits">Portraits</a></li>
-				<li><a href="#" class="active" data-filter="*">Show All</a></li>
+				<li><a href="#" data-filter=".entree">Entrée</a></li>
+				<li><a href="#" data-filter=".plat">Plat</a></li>
+				<li><a href="#" data-filter=".dessert">Dessert</a></li>
+				<li><a href="#" class="active" data-filter="*">Montrer Tous</a></li>
 			</ul>
 			<div class="tm-gallery">				
-				<div class="tm-gallery-item city portraits">
-		            <a href="img/img-01.jpg">
-		            	<img src="img/tn-img-01.jpg" alt="City Scape" class="img-fluid" />
+				<div class="tm-gallery-item city dessert">
+		            <a href="https://www.justeatemps-gourmet.com/728-large_default/glace-a-l-italienne.jpg">
+		            	<img src="https://www.justeatemps-gourmet.com/728-large_default/glace-a-l-italienne.jpg" alt="City Scape" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item portraits">
-		            <a href="img/img-02.jpg">
-		            	<img src="img/tn-img-02.jpg" alt="Beautiful Lady" class="img-fluid" />
+				<div class="tm-gallery-item dessert">
+		            <a href="https://files.meilleurduchef.com/mdc/photo/recette/crepe-chocolat-banane/crepe-chocolat-banane-1200.jpg">
+		            	<img src="https://files.meilleurduchef.com/mdc/photo/recette/crepe-chocolat-banane/crepe-chocolat-banane-1200.jpg" alt="Beautiful Lady" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-03.jpg">
-		            	<img src="img/tn-img-03.jpg" alt="City over cloud" class="img-fluid" />
+				<div class="tm-gallery-item entree">
+		            <a href="https://img.cuisineaz.com/660x660/2018/02/10/i135580-salade-cesar-allegee.jpeg">
+		            	<img src="https://img.cuisineaz.com/660x660/2018/02/10/i135580-salade-cesar-allegee.jpeg" alt="City over cloud" class="img-fluid" />
 		            </a>
 		        </div>
-		        <div class="tm-gallery-item nature">
-		            <a href="img/img-04.jpg">
-		            	<img src="img/tn-img-04.jpg" alt="Autumn Forest" class="img-fluid" />
+		        <div class="tm-gallery-item entree">
+		            <a href="https://assets.afcdn.com/recipe/20200212/107455_w1024h1024c1cx1037cy722.webp">
+		            	<img src="https://assets.afcdn.com/recipe/20200212/107455_w1024h1024c1cx1037cy722.webp" alt="Autumn Forest" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-05.jpg">
-		            	<img src="img/tn-img-05.jpg" alt="Skyscrapers Reflected" class="img-fluid" />
+				<div class="tm-gallery-item entree">
+		            <a href="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/26E44F62-953B-4877-8408-8CE8952C404E/Derivates/094199EC-7FF0-4E0B-AED1-3CDDF68DB5F7.jpg">
+		            	<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/26E44F62-953B-4877-8408-8CE8952C404E/Derivates/094199EC-7FF0-4E0B-AED1-3CDDF68DB5F7.jpg" alt="Skyscrapers Reflected" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-06.jpg">
-		            	<img src="img/tn-img-06.jpg" alt="City Night" class="img-fluid" />
+				<div class="tm-gallery-item dessert">
+		            <a href="https://4.bp.blogspot.com/-Y0VuOP68RcE/XqA8QxzUSeI/AAAAAAAAKkc/nA0MaHqmIJYqMkwsrT4GvoXdoi8SfBL7gCLcBGAsYHQ/w680/fondant-chocolat-facile-rapide-inratable-web-elise-lepage-18042020-2.jpg">
+		            	<img src="https://4.bp.blogspot.com/-Y0VuOP68RcE/XqA8QxzUSeI/AAAAAAAAKkc/nA0MaHqmIJYqMkwsrT4GvoXdoi8SfBL7gCLcBGAsYHQ/w680/fondant-chocolat-facile-rapide-inratable-web-elise-lepage-18042020-2.jpg" alt="City Night" class="img-fluid" />
 		            </a>
 		        </div>
-		        <div class="tm-gallery-item nature portraits">
-		            <a href="img/img-07.jpg">
-		            	<img src="img/tn-img-07.jpg" alt="Gallery item" class="img-fluid" />
+				<div class="tm-gallery-item plat">
+		            <a href="https://images.rtl.fr/~c/2000v2000/rtl/www/1230460-un-hamburger-illustration.jpg">
+		            	<img src="https://images.rtl.fr/~c/2000v2000/rtl/www/1230460-un-hamburger-illustration.jpg" alt="Gallery item" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-08.jpg">
-		            	<img src="img/tn-img-08.jpg" alt="Gallery item" class="img-fluid" />
+				<div class="tm-gallery-item plat">
+		            <a href="https://www.papillesetpupilles.fr/wp-content/uploads/2019/01/Co%CC%82te-boeuf-au-four-%C2%A9hlphoto-shutterstock.jpg">
+		            	<img src="https://www.papillesetpupilles.fr/wp-content/uploads/2019/01/Co%CC%82te-boeuf-au-four-%C2%A9hlphoto-shutterstock.jpg" alt="Gallery item" class="img-fluid" />
 		            </a>
 		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-09.jpg">
-		            	<img src="img/tn-img-09.jpg" alt="Gallery item" class="img-fluid" />
+				<div class="tm-gallery-item plat">
+		            <a href="https://img.cuisineaz.com/660x660/2018/03/19/i137572-pizza-rapide-et-facile-au-jambon-tomates-fromage-olives.jpeg">
+		            	<img src="https://img.cuisineaz.com/660x660/2018/03/19/i137572-pizza-rapide-et-facile-au-jambon-tomates-fromage-olives.jpeg" alt="Gallery item" class="img-fluid" />
 		            </a>
 		        </div>
-		        <div class="tm-gallery-item nature portraits">
-		            <a href="img/img-10.jpg">
-		            	<img src="img/tn-img-10.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-11.jpg">
-		            	<img src="img/tn-img-11.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item portraits">
-		            <a href="img/img-12.jpg">
-		            	<img src="img/tn-img-12.jpg" alt="Gallery item" class="img-fluid" />
+				<div class="tm-gallery-item plat">
+		            <a href="https://img.cuisineaz.com/660x660/2016/04/28/i8248-cassoulet-de-castelnaudary.jpg">
+		            	<img src="https://img.cuisineaz.com/660x660/2016/04/28/i8248-cassoulet-de-castelnaudary.jpg" alt="Gallery item" class="img-fluid" />
 		            </a>
 		        </div>
 			</div>			
@@ -128,11 +143,55 @@ https://www.tooplate.com/view/2122-nano-folio
 			</div>
 		</section>
 
-		<footer class="tm-footer">
-			Copyright 2020 Nano Folio - Design: <a rel="sponsored" href="https://www.tooplate.com" class="tm-link-gray">Tooplate</a>
-		</footer>
-	</div>
 
+	</div>
+	<footer class="site-footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-12 col-md-6">
+			  <h6>à Propos</h6>
+			  <p class="color-grey text-justify">Société basée en france au 82 chemin de Fontenay a Lyon. Nos produits sont 100% Francais et les embalages proviennent à 99 % de ressources recyclées. Notre équipe est vraiment efficace et très réctaive et 99.99% de nos clients sont satisfaits de nos produits alimentaires.   </p>
+			</div>
+  
+			<div class="col-xs-6 col-md-3">
+			  <h6>Catégories</h6>
+			  <ul class="footer-links">
+				<li><a>Entrée</a></li>
+				<li><a>Plat</a></li>
+				<li><a>Dessert</a></li>
+				<li><a>Boisson</a></li>
+			  </ul>
+			</div>
+  
+			<div class="col-xs-6 col-md-3">
+			  <h6>Liens rapides</h6>
+			  <ul class="footer-links">
+				<li><a>A propos de nous</a></li>
+				<li><a>Nos prix</a></li>
+				<li><a>Contacter nous</a></li>
+			  </ul>
+			</div>
+		  </div>
+		  <hr>
+		</div>
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-8 col-sm-6 col-xs-12">
+			  <p class="copyright-text">Copyright &copy; 2021 Tout droit réservé a DeliFood
+			  </p>
+			</div>
+  
+			<div class="col-md-4 col-sm-6 col-xs-12">
+			  <ul class="social-icons">
+				<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+				<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+			  </ul>
+			</div>
+		  </div>
+		</div>
+  </footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/isotope.pkgd.min.js"></script>
