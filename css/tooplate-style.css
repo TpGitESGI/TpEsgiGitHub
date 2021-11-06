@@ -1,9 +1,6 @@
 /*
-
 Tooplate 2122 Nano Folio
-
 https://www.tooplate.com/view/2122-nano-folio
-
 */
 
 html { overflow-x: hidden; }
@@ -27,7 +24,7 @@ a:hover { color: #30ADAD; }
 
 .tm-about-text a { color: #9F6; }
 
-h1, h2, p, i, address, .tm-text-white { color: white; }
+h1, h2,h3, p, i, address, .tm-text-white { color: white; }
 
 .tm-link-gray { color: #999999; }
 .tm-link-white { color: white; }
@@ -211,7 +208,8 @@ address { font-style: normal; }
 .tm-mb-40 { margin-bottom: 40px; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-80 { margin-bottom: 80px; }
-.tm-bgcolor-1 { background-color: #F96699; }
+.tm-bgcolor-1 { background-color: #4ed8dd; }
 .tm-bgcolor-2 { background-color: #38CCCC; }
-.tm-bgcolor-3 { background-color: #99CCCC; }
+.tm-bgcolor-3 { background-color: #44c078; }
+.tm-bgcolor-5 { background-color: #ff7e4b; }
 .tm-border-rounded { border-radius: 15px; }
